@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 python:slim
+FROM --platform=linux/amd64 python:slim
 
 RUN pip install qbittorrent-api
 
